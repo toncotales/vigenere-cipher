@@ -24,11 +24,11 @@ from vigenere_cipher import VigenereCipher
 # Create a cipher object
 vc = VigenereCipher()
 
-# Create a random cipher key (Optional)
-# key = vc.random_alphabet()
-
 # Create a simple cipher key
 key = "JustASimpleKey"
+
+# Or create a random key (Optional)
+# key = vc.random_alphabet()
 
 # Encrypt a message
 plaintext = "Hello, World!"
